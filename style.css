@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.navblue.container {
+  max-width: 100% !important;
+background-color: white;
+
+  padding-bottom: 0px;
+}
+
+
+
+.navblue{
+    position: fixed;
+}
+
+.bodycover {
+    margin-top: 11vh;
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(230, 223, 230);
+    
+}
+.clipped-text{
+    font-size: 6.5rem;
+    background-image: url("images/new.jpg");
+
+    text-align: center;
+    color: transparent;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Dancing Script";
+    margin-bottom: 7rem;
+}
+.img{
+      background-image: 
+    linear-gradient(to bottom, rgba(237, 228, 228, 0.5), rgba(245, 241, 241, 0.5)), 
+    url("images/backgrnd.jpg");
+    background-size:100% 200px;
+  background-position: center;
+    height: 40%;
+    width: 100%;
+    transform: rotate(180deg);
+    
+}
+.foot{
+    border: 1px solid black;
+    background-color: rgb(181, 187, 245);
+}
